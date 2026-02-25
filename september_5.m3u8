@@ -1,0 +1,9 @@
+#EXTM3U
+#EXT-X-VERSION:3
+
+# Define the Audio Track
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",NAME="Default Audio",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE="und",URI="https://scrennnifu.click/movie/tt28082769/audio/und/audio.m3u8"
+
+# Define the Video Track and link it to the Audio Group above
+#EXT-X-STREAM-INF:BANDWIDTH=8000000,RESOLUTION=1920x1080,FRAME-RATE=23.976,CODECS="avc1.640028,mp4a.40.2",AUDIO="aac"
+https://scrennnifu.click/movie/tt28082769/1080/playlist.m3u8
